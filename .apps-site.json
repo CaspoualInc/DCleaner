@@ -1,0 +1,15 @@
+{
+  "name": "DCleaner",
+  "tagline": "Voyez ce qui remplit votre disque, puis nettoyez en toute sécurité.",
+  "description": "Analyseur d'espace disque pour Windows. Une arborescence triée par taille et un treemap imbriqué montrent ce qui occupe un lecteur ou un dossier. DCleaner repère les caches de build et les doublons, affiche un aperçu exact avant toute suppression, puis envoie tout à la Corbeille. Disponible dans le menu contextuel de l'Explorateur Windows 11. Aucune télémétrie, aucun accès réseau.",
+  "kind": "bureau",
+  "status": "live",
+  "url": "https://github.com/CaspoualInc/DCleaner/releases/latest",
+  "links": [
+    { "label": "Télécharger l'installateur", "url": "https://github.com/CaspoualInc/DCleaner/releases/download/v1.0.0/DCleaner_1.0.0_x64-setup.exe" },
+    { "label": "Code source", "url": "https://github.com/CaspoualInc/DCleaner" }
+  ],
+  "tags": ["windows", "disque", "nettoyage", "rust", "tauri"],
+  "year": 2026,
+  "color": "#0067c0"
+}
