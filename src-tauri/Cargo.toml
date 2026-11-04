@@ -1,0 +1,16 @@
+[package]
+name = "dcleaner"
+version = "1.0.0"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+rayon = "1"
+trash = "5"
+xxhash-rust = { version = "0.8", features = ["xxh3"] }
+sysinfo = { version = "0.33", default-features = false, features = ["disk"] }

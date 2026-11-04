@@ -1,0 +1,30 @@
+{
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "icon": [
+      "icons/icon.png",
+      "icons/icon.ico"
+    ],
+    "publisher": "DCleaner",
+    "shortDescription": "Analyseur d'espace disque",
+    "resources": {
+      "../target/release/dcleaner_shell.dll": "dcleaner_shell.dll",
+      "../installer-res/DCleaner.msix": "DCleaner.msix",
+      "../installer-res/DCleaner.cer": "DCleaner.cer",
+      "../scripts/register-menu.ps1": "register-menu.ps1"
+    },
+    "windows": {
+      "nsis": {
+        "installMode": "perMachine",
+        "installerHooks": "windows/hooks.nsh",
+        "languages": [
+          "French"
+        ],
+        "displayLanguageSelector": false
+      }
+    }
+  }
+}

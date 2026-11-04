@@ -1,0 +1,9 @@
+/target/
+/dist/
+/installer-res/
+/signing/
+# ancienne version Python (remplacée par Tauri)
+/dcleaner/
+/tests/
+__pycache__/
+/src-tauri/gen/
